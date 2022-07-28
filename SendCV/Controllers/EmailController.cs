@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using SendCV.Model;
 using SendCV.Services;
 using System;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace SendCV.Controllers
@@ -29,5 +31,7 @@ namespace SendCV.Controllers
                 throw ex;
             }
         }
+
     }
 }
+

@@ -20,7 +20,9 @@ namespace SendCV.Model
         public string Celular { get; set; }
         public string Email { get; set; }
         public string Fecha { get; set; }
-        public List<IFormFile> Attachment { get; set; }
+        public string Cargo { get; set; }
+        //public List<IFormFile> Attachment { get; set; }
+        public IFormFile Attachment { get; set; }
     }
 
 }
